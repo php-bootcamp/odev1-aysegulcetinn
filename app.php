@@ -1,16 +1,15 @@
 <?php
 
 $age = 25;
-if($age>0 && $age<14){
-  echo "çocuk"
-}
-else if($age>15 && $age<24){
-  echo "genç!"
-}
-else if($age>25 && $age<64){
-  echo"yetişkin"
-}
-else{echo"yaşlı"}
+if($age>=0 && $age<=14)
+  echo "çocuk";
+
+else if($age>=15 && $age<=24)
+  echo "genç!";
+else if($age>=25 && $age<=64)
+  echo"yetişkin";
+
+else{echo"yaşlı";}
 
 ?>
 /**
